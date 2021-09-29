@@ -233,7 +233,7 @@ export default {
   watch: {
     mountainId: function () {
       const mount = this.mountains.filter((el) => el.id == this.mountainId);
-      this.imageMap = `https://www.google.com/maps/embed/v1/place?key=AIzaSyDCDpW1pT8Z8ijRP6NG6rjAWvzwu1pd9gI&q=gunung%20${mount[0].name}`
+      this.imageMap = `https://www.google.com/maps/embed/v1/place?key=AIzaSyB57yZO_bYbAs8a7UOpzieG_mVRmi17izM&q=gunung%20${mount[0].name}`
       this.trackList = mount[0].Tracks;
       let status = "aktif";
       if (!mount[0].status) {

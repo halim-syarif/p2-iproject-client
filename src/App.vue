@@ -1,8 +1,14 @@
 <template>
-  <div id="app" class="flex flex-col justify-between">
-    <navbar-component></navbar-component>
-    <router-view/>
-    <Footer></Footer>
+  <div id="app" class="flex flex-col justify-between min-h-screen">
+    <div>
+      <navbar-component></navbar-component>
+    </div>
+    <div>
+      <router-view/>
+    </div>
+    <div class="bottom-0">
+      <Footer></Footer>
+    </div>
   </div>
 </template>
 
@@ -27,6 +33,6 @@ export default {
 
 <style>
 #app {
-  font-family: 'Varela Round', sans-serif;
+  font-family: 'Varela Round', 'Josefin Sans', sans-serif;
 }
 </style>

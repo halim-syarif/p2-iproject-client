@@ -1,10 +1,10 @@
 <template>
   <div>
-      <section class="py-20 mt-relative block 28 h-screen p lg:pt-0 bg-gray-600"
+      <section class="py-20 mt-relative block 28 p lg:pt-0 bg-gray-600"
       
       style='background-image: url("https://media.suara.com/pictures/970x544/2014/06/09/shutterstock_154213739.jpg"); background-size:cover; height:100%'>
       
-        <div class="container h-screen  mx-auto px-4">
+        <div class="container  mx-auto px-4">
           <div class="flex justify-center pt-20">
             <div class="w-full px-4">
               <div

@@ -1,5 +1,5 @@
 <template>
-  <div class="footer-h8 z-10">
+  <div class="footer-h8 bottom-0 relative z-10">
     <div class="footer-h8-left">
       <img
         src="https://i.postimg.cc/Y2NMhk3W/Logo-Hacktiv8-bordered-1.png"

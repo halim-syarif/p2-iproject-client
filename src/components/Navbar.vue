@@ -8,13 +8,14 @@
       <div
         class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start"
       >
-      <div class="flex flex-row">
+      <div class="flex flex-row text-3xl">
         <div class="text-white">
         <i class="fas fa-hiking"></i>
       </div>
         <router-link :to="{name: 'Home'}">
         <a
-          class="text-xl font-bold lg:hover:text-gray-900 leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white"
+          class="text-4xl font-bold lg:hover:text-gray-900 leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white"
+          style="font-family:'Josefin Sans'"
           href=""
           >Nanjak Yuk</a>
         </router-link>

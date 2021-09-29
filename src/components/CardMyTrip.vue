@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <div @click="showDetail" class="relative mt-1 ">
+  <div id="tab-detail">
+    <div @click="showDetail" class="relative mt-1 block leading-normal cursor-pointer" for="tab-detail">
       <button
         class="
           w-full
@@ -1064,4 +1064,10 @@ export default {
 .scroll {
   overflow-y: scroll;
 }
+/* .detail {
+    max-height: 0;
+    -webkit-transition: max-height .35s;
+    -o-transition: max-height .35s;
+    transition: max-height .35s;
+} */
 </style>

@@ -80,7 +80,7 @@ Vue.use(loading, {
 
 Vue.use(new VueSocketIO({
   debug: true,
-  connection: 'http://localhost:3000'
+  connection: 'https://halim-nanjakyuk.herokuapp.com/'
 }))
 
 new Vue({

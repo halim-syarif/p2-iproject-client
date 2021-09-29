@@ -1,12 +1,12 @@
 <template>
-      <main>
+      <main class="">
       <div
-        class="mt-relative pt-36 pb-32 flex content-center items-center justify-center"
+        class="flex flex-col items-center justify-between"
         
       >
         <!-- background image -->
         <div
-          class="absolute top-0 w-full h-full bg-center bg-cover"
+          class="absolute top-0 w-full min-h-screen bg-cover"
           style='background-image: url("https://media.suara.com/pictures/970x544/2014/06/09/shutterstock_154213739.jpg");'
         >
           <span
@@ -15,10 +15,10 @@
           ></span>
         </div>
         <!-- tagline -->
-        <div class="container relative ml-14">
+        <div class="container relative ml-14 mt-24">
           <div class="items-center flex flex-wrap">
-            <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
-              <div class="pr-12">
+            <div class="w-full px-4 ml-auto mr-auto text-center">
+              <div class="pr-12 mb-4">
                 <h1 class="text-white font-semibold text-5xl">
                   Your story starts with us.
                 </h1>
@@ -33,27 +33,8 @@
             </div>
           </div>
         </div>
-        <!-- <div
-          class="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden"
-          style="height: 70px;"
-        >
-          <svg
-            class="absolute bottom-0 overflow-hidden"
-            xmlns="http://www.w3.org/2000/svg"
-            preserveAspectRatio="none"
-            version="1.1"
-            viewBox="0 0 2560 100"
-            x="0"
-            y="0"
-          >
-            <polygon
-              class="text-gray-300 fill-current"
-              points="2560 0 2560 100 0 100"
-            ></polygon>
-          </svg>
-        </div> -->
-      </div>
-      <section class="">
+
+      <!-- <section class="">
         <div class="container mx-auto px-4">
           <div class="flex flex-wrap">
             <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
@@ -112,7 +93,13 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
+
+      </div>
+
+
+
+
     </main>
 </template>
 <script>
