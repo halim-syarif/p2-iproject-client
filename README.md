@@ -1,24 +1,7 @@
-# p2-iproject-client
+# My Individual project on hacktiv8 bootcamp
 
-## Project setup
-```
-npm install
-```
+## Build with Vue Framework in 3 days
 
-### Compiles and hot-reloads for development
 ```
-npm run serve
+https://halim-nanjakyuk.web.app/
 ```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
